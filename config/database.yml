@@ -1,0 +1,24 @@
+
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+  username: root
+  password: root
+  socket: /var/run/mysqld/mysqld.sock
+
+development:
+  <<: *default
+  database: jobs_board_development
+
+
+test:
+  <<: *default
+  database: jobs_board_test
+
+
+production:
+  <<: *default
+  database: jobs_board_production
+  username: jobs_board
+  password: <%= ENV['JOBS_BOARD_DATABASE_PASSWORD'] %>
