@@ -11,6 +11,7 @@
  * file per style scope.
  *
  *= require_tree .
+ *= require social-share-button
  *= require_self
  */
 
@@ -74,3 +75,11 @@ color: rgba(250,250,250, 0.5);
 #links {
 margin-top: 2em;
 }
+
+
+/*.social-share-button-facebook {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("/social/facebook.png") no-repeat;
+}*/

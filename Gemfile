@@ -15,7 +15,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'simple_form', '~> 3.1.0'
 gem 'bootstrap-sass', '~> 3.3.4.1'
 gem 'haml', '~> 4.0.6'
-
+gem 'social-share-button', '~> 0.1.6'
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
